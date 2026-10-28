@@ -1,8 +1,7 @@
 plugins {
-    // VERSÕES ESCRITAS DE MEMÓRIA — confira as estáveis atuais (AGP, Kotlin e BOM do Compose) antes de compilar.
-    id("com.android.application") version "8.5.2"
-    kotlin("android") version "2.0.21"
-    id("org.jetbrains.kotlin.plugin.compose") version "2.0.21"
+    id("com.android.application")
+    kotlin("android")
+    id("org.jetbrains.kotlin.plugin.compose")
 }
 
 android {
